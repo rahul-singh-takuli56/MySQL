@@ -1,4 +1,3 @@
-# Notes on mysql:
 # Commands in mySql
 
 ### Students is table name and S_id, firstname, and lastname are column names.
