@@ -2,7 +2,6 @@
 
 ### Students is table name and S_id, firstname, and lastname are column names.
 ### mysql -u root -p
-- Rahul@123
 
 1. **Select** -> extract the data from the table.
    - Syntax: `select * from students;`
