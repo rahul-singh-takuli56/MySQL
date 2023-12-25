@@ -1,8 +1,15 @@
-# Commands in mySql
+# MySQL: 
 
 ### Students is table name and S_id, firstname, and lastname are column names.
 ### mysql -u root -p
-- 
+
+- `Alter vs Update` -> whenever we want to modify(renaming, etc) data on table use update, Whereas whenever we want to change the structure of table like adding/deleting column, rows use alter;
+
+- `Delete vs Drop` -> The DELETE command deletes one or more existing data of rows from the table in the database. The DROP Command drops the complete table from the database.
+
+- `To delete the column` -> ALTER TABLE table_name DROP COLUMN column_name;
+
+# Commands: 
 
 1. **Select** -> extract the data from the table.
    - Syntax: `select * from students;`
@@ -15,6 +22,7 @@
 
 4. **Order By** -> used to sort the values in ascending or descending order.
    - Syntax: `select firstname from students order by s_id;`
+   - In reverse Order:  `select firstname from students order by s_id desc;`
 
 5. **And Or Not** -> I know
 
